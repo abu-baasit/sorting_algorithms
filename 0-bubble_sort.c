@@ -20,7 +20,7 @@ void integer_swap(int *a, int *b)
 */
 void bubble_sort(int *array, size_t size)
 {
-	size_t j, len =size;
+	size_t j, len = size;
 	bool bubble = false;
 
 	if (array == NULL || size < 2)
